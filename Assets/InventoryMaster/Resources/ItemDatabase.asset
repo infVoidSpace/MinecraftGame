@@ -1,0 +1,602 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6b4c29ddb3cf21d4e9b0596a8ba26af7, type: 3}
+  m_Name: ItemDatabase
+  m_EditorClassIdentifier: 
+  itemList:
+  - itemName: air_block
+    itemID: 0
+    itemDesc: 
+    itemIcon: {fileID: 0}
+    itemModel: {fileID: 785023116421485645, guid: 3ef0db53338e3dd4eb9f61903a0998d4, type: 3}
+    blockModel: {fileID: 0}
+    itemValue: 1
+    itemType: 0
+    itemWeight: 0
+    maxStack: 1
+    indexItemInList: 0
+    rarity: 0
+    itemAttributes:
+    - attributeName: miningLevel
+      attributeValue: 0
+  - itemName: dirt_item
+    itemID: 1
+    itemDesc: 
+    itemIcon: {fileID: 21300000, guid: 6d519a8f834992d46af2c708f087abb1, type: 3}
+    itemModel: {fileID: 8848303129010397147, guid: d9aee15c716c39048acab147b174576d, type: 3}
+    blockModel: {fileID: 9222238333264449507, guid: 95bd8493b710d9e4dbaa1547bcdd3ffe, type: 3}
+    itemValue: 1
+    itemType: 14
+    itemWeight: 0
+    maxStack: 64
+    indexItemInList: 0
+    rarity: 0
+    itemAttributes:
+    - attributeName: orientable
+      attributeValue: 0
+    - attributeName: handMiningLevel
+      attributeValue: 20
+    - attributeName: pickaxeMiningLevel
+      attributeValue: 20
+    - attributeName: axeMiningLevel
+      attributeValue: 20
+    - attributeName: shovelMiningLevel
+      attributeValue: 50
+    - attributeName: hoeMiningLevel
+      attributeValue: 20
+    - attributeName: swordMiningLevel
+      attributeValue: 20
+    - attributeName: toolTypeRequired
+      attributeValue: 1
+  - itemName: grass_item
+    itemID: 2
+    itemDesc: 
+    itemIcon: {fileID: 21300000, guid: c31d6d0f668a4234fafc4c01ac624172, type: 3}
+    itemModel: {fileID: 488708432468959912, guid: ff42117252342f149ba9fb47faaae49e, type: 3}
+    blockModel: {fileID: 5231916808105397057, guid: 84df0c36bab9188469e465a8a0f2e5d4, type: 3}
+    itemValue: 1
+    itemType: 14
+    itemWeight: 0
+    maxStack: 64
+    indexItemInList: 0
+    rarity: 0
+    itemAttributes:
+    - attributeName: orientable
+      attributeValue: 0
+    - attributeName: handMiningLevel
+      attributeValue: 20
+    - attributeName: pickaxeMiningLevel
+      attributeValue: 20
+    - attributeName: axeMiningLevel
+      attributeValue: 20
+    - attributeName: shovelMiningLevel
+      attributeValue: 50
+    - attributeName: hoeMiningLevel
+      attributeValue: 20
+    - attributeName: swordMiningLevel
+      attributeValue: 20
+    - attributeName: toolTypeRequired
+      attributeValue: 1
+  - itemName: gravel_item
+    itemID: 3
+    itemDesc: 
+    itemIcon: {fileID: 21300000, guid: eec1f229798e73a4995ebfeb052d72b2, type: 3}
+    itemModel: {fileID: 8625569419075956570, guid: 0435c86d5767b35448108c1714833059, type: 3}
+    blockModel: {fileID: 3476507018132313168, guid: 6b84010bb40aa8542908a04f5b71c1f0, type: 3}
+    itemValue: 1
+    itemType: 14
+    itemWeight: 0
+    maxStack: 64
+    indexItemInList: 0
+    rarity: 0
+    itemAttributes:
+    - attributeName: orientable
+      attributeValue: 0
+    - attributeName: handMiningLevel
+      attributeValue: 20
+    - attributeName: pickaxeMiningLevel
+      attributeValue: 20
+    - attributeName: axeMiningLevel
+      attributeValue: 20
+    - attributeName: shovelMiningLevel
+      attributeValue: 70
+    - attributeName: hoeMiningLevel
+      attributeValue: 20
+    - attributeName: swordMiningLevel
+      attributeValue: 20
+    - attributeName: toolTypeRequired
+      attributeValue: 1
+  - itemName: stone_item
+    itemID: 4
+    itemDesc: 
+    itemIcon: {fileID: 21300000, guid: 8187dfc04d56730439cef50cb2368b0c, type: 3}
+    itemModel: {fileID: 2031700050879010849, guid: a6e1d45ef088cac40adf495a51e5c844, type: 3}
+    blockModel: {fileID: 8982492634134265686, guid: b5c60ed8560915d479b5fa2e0a157c34, type: 3}
+    itemValue: 1
+    itemType: 14
+    itemWeight: 0
+    maxStack: 64
+    indexItemInList: 0
+    rarity: 0
+    itemAttributes:
+    - attributeName: orientable
+      attributeValue: 0
+    - attributeName: handMiningLevel
+      attributeValue: 1
+    - attributeName: pickaxeMiningLevel
+      attributeValue: 20
+    - attributeName: axeMiningLevel
+      attributeValue: 1
+    - attributeName: shovelMiningLevel
+      attributeValue: 1
+    - attributeName: hoeMiningLevel
+      attributeValue: 1
+    - attributeName: swordMiningLevel
+      attributeValue: 1
+    - attributeName: toolTypeRequired
+      attributeValue: 2
+    - attributeName: uniqueToolId
+      attributeValue: 10
+  - itemName: sand_item
+    itemID: 5
+    itemDesc: 
+    itemIcon: {fileID: 21300000, guid: 60b41b353392d8d4a9326cca38ee98cd, type: 3}
+    itemModel: {fileID: 4511861226204529100, guid: cc7aea718f11ae0488767c65b5bd93eb, type: 3}
+    blockModel: {fileID: 2041344548764921716, guid: 29e1ce60433e21d4c91fca10103dfdd3, type: 3}
+    itemValue: 1
+    itemType: 14
+    itemWeight: 0
+    maxStack: 64
+    indexItemInList: 0
+    rarity: 0
+    itemAttributes:
+    - attributeName: orientable
+      attributeValue: 0
+    - attributeName: handMiningLevel
+      attributeValue: 20
+    - attributeName: pickaxeMiningLevel
+      attributeValue: 20
+    - attributeName: axeMiningLevel
+      attributeValue: 20
+    - attributeName: shovelMiningLevel
+      attributeValue: 70
+    - attributeName: hoeMiningLevel
+      attributeValue: 20
+    - attributeName: swordMiningLevel
+      attributeValue: 20
+    - attributeName: toolTypeRequired
+      attributeValue: 1
+  - itemName: oakLog_item
+    itemID: 6
+    itemDesc: 
+    itemIcon: {fileID: 21300000, guid: d2b76e9e474697443bfbb70fc25e08c1, type: 3}
+    itemModel: {fileID: 1217027120003728564, guid: a28f4dbe2d880de4fa7741da184ed9f1, type: 3}
+    blockModel: {fileID: 7394781422271356593, guid: de7f5d7395fdbd44d9edc806fd8c3c0e, type: 3}
+    itemValue: 1
+    itemType: 14
+    itemWeight: 0
+    maxStack: 64
+    indexItemInList: 0
+    rarity: 0
+    itemAttributes:
+    - attributeName: orientable
+      attributeValue: 1
+    - attributeName: handMiningLevel
+      attributeValue: 20
+    - attributeName: pickaxeMiningLevel
+      attributeValue: 20
+    - attributeName: axeMiningLevel
+      attributeValue: 70
+    - attributeName: shovelMiningLevel
+      attributeValue: 20
+    - attributeName: hoeMiningLevel
+      attributeValue: 20
+    - attributeName: swordMiningLevel
+      attributeValue: 20
+    - attributeName: toolTypeRequired
+      attributeValue: 1
+  - itemName: leaves_item
+    itemID: 7
+    itemDesc: 
+    itemIcon: {fileID: 21300000, guid: 3ea63fbd15a2cc044bf64fc364a4406a, type: 3}
+    itemModel: {fileID: 30672488882785976, guid: 0d722e76a562526468c23c6242807c34, type: 3}
+    blockModel: {fileID: 2173272307436053440, guid: 6c162ba8ebc443240b5fec7bac2ecfa4, type: 3}
+    itemValue: 1
+    itemType: 0
+    itemWeight: 0
+    maxStack: 64
+    indexItemInList: 999
+    rarity: 0
+    itemAttributes:
+    - attributeName: orientable
+      attributeValue: 0
+    - attributeName: handMiningLevel
+      attributeValue: 100
+    - attributeName: pickaxeMiningLevel
+      attributeValue: 100
+    - attributeName: axeMiningLevel
+      attributeValue: 150
+    - attributeName: shovelMiningLevel
+      attributeValue: 100
+    - attributeName: hoeMiningLevel
+      attributeValue: 200
+    - attributeName: swordMiningLevel
+      attributeValue: 100
+    - attributeName: toolTypeRequired
+      attributeValue: 1
+  - itemName: oakPlanks_item
+    itemID: 8
+    itemDesc: 
+    itemIcon: {fileID: 21300000, guid: 7381f88565ec02145aa9fcc0c4566314, type: 3}
+    itemModel: {fileID: 3526377570359598595, guid: 699f6ccfb93d1544ba9d9c886fced3dd, type: 3}
+    blockModel: {fileID: 2449625398286032588, guid: 0ccb8bb342d29cc41ab79fc39f391153, type: 3}
+    itemValue: 1
+    itemType: 14
+    itemWeight: 0
+    maxStack: 64
+    indexItemInList: 999
+    rarity: 0
+    itemAttributes:
+    - attributeName: orientable
+      attributeValue: 0
+    - attributeName: handMiningLevel
+      attributeValue: 30
+    - attributeName: pickaxeMiningLevel
+      attributeValue: 30
+    - attributeName: axeMiningLevel
+      attributeValue: 70
+    - attributeName: shovelMiningLevel
+      attributeValue: 30
+    - attributeName: hoeMiningLevel
+      attributeValue: 30
+    - attributeName: swordMiningLevel
+      attributeValue: 30
+    - attributeName: toolTypeRequired
+      attributeValue: 1
+  - itemName: stick
+    itemID: 9
+    itemDesc: 
+    itemIcon: {fileID: 21300000, guid: 9b6ec7a2922d9274787efeee46b59a93, type: 3}
+    itemModel: {fileID: 1376685875733267446, guid: 608ec4f5230c430488d47fa9377f70f4, type: 3}
+    blockModel: {fileID: 0}
+    itemValue: 1
+    itemType: 11
+    itemWeight: 0
+    maxStack: 64
+    indexItemInList: 999
+    rarity: 0
+    itemAttributes: []
+  - itemName: pickaxe_wood
+    itemID: 10
+    itemDesc: 
+    itemIcon: {fileID: 21300000, guid: 2e95bcc724f5ac343b166b4cab8f7f63, type: 3}
+    itemModel: {fileID: 5676434394379209709, guid: 947cfc73092450441b652fc5197c415b, type: 3}
+    blockModel: {fileID: 0}
+    itemValue: 1
+    itemType: 15
+    itemWeight: 0
+    maxStack: 1
+    indexItemInList: 999
+    rarity: 0
+    itemAttributes: []
+  - itemName: pickaxe_stone
+    itemID: 11
+    itemDesc: 
+    itemIcon: {fileID: 21300000, guid: 15d881277a591f142a11f7834c99193b, type: 3}
+    itemModel: {fileID: 2683582693328149123, guid: 1c5a9d79605209e40a5ba935ddd1e935, type: 3}
+    blockModel: {fileID: 0}
+    itemValue: 1
+    itemType: 15
+    itemWeight: 0
+    maxStack: 1
+    indexItemInList: 999
+    rarity: 0
+    itemAttributes: []
+  - itemName: pickaxe_iron
+    itemID: 12
+    itemDesc: 
+    itemIcon: {fileID: 21300000, guid: bea772ca392deb540ada22a60c74cc85, type: 3}
+    itemModel: {fileID: 7181488282476409725, guid: e10b72d6f00708f4abf262b560c1ead0, type: 3}
+    blockModel: {fileID: 0}
+    itemValue: 1
+    itemType: 15
+    itemWeight: 0
+    maxStack: 1
+    indexItemInList: 999
+    rarity: 0
+    itemAttributes: []
+  - itemName: pickaxe_gold
+    itemID: 13
+    itemDesc: 
+    itemIcon: {fileID: 21300000, guid: ae938405e6779ca4485da1578963bf6f, type: 3}
+    itemModel: {fileID: 6199686812114206232, guid: a19aeab9b2efc774f8dd11d0b2587d71, type: 3}
+    blockModel: {fileID: 0}
+    itemValue: 1
+    itemType: 15
+    itemWeight: 0
+    maxStack: 1
+    indexItemInList: 999
+    rarity: 0
+    itemAttributes: []
+  - itemName: pickaxe_diamond
+    itemID: 14
+    itemDesc: 
+    itemIcon: {fileID: 21300000, guid: e545cefecfcb4aa4e821166295cbe5fa, type: 3}
+    itemModel: {fileID: 2042917842027722504, guid: dc7d64c7522dd9d43929ac3d4bb13cea, type: 3}
+    blockModel: {fileID: 0}
+    itemValue: 1
+    itemType: 15
+    itemWeight: 0
+    maxStack: 1
+    indexItemInList: 999
+    rarity: 0
+    itemAttributes: []
+  - itemName: axe_wood
+    itemID: 15
+    itemDesc: 
+    itemIcon: {fileID: 21300000, guid: c42e040aa94577b4baec00b17bce66b8, type: 3}
+    itemModel: {fileID: 2782608353049320158, guid: 538f0443a5fff724d8c2a60290f3458d, type: 3}
+    blockModel: {fileID: 0}
+    itemValue: 1
+    itemType: 15
+    itemWeight: 0
+    maxStack: 1
+    indexItemInList: 999
+    rarity: 0
+    itemAttributes: []
+  - itemName: axe_stone
+    itemID: 16
+    itemDesc: 
+    itemIcon: {fileID: 21300000, guid: a279a7a4da050414d969cfff594375e8, type: 3}
+    itemModel: {fileID: 8230836484878447129, guid: 481903ce8eb3ddc4a8949eae78229d3f, type: 3}
+    blockModel: {fileID: 0}
+    itemValue: 1
+    itemType: 15
+    itemWeight: 0
+    maxStack: 1
+    indexItemInList: 999
+    rarity: 0
+    itemAttributes: []
+  - itemName: axe_iron
+    itemID: 17
+    itemDesc: 
+    itemIcon: {fileID: 21300000, guid: 03812e0559c577242bab2d9e02d0f416, type: 3}
+    itemModel: {fileID: 2149389188961587085, guid: 5c8cc507a4099d14abee135d9267e1a3, type: 3}
+    blockModel: {fileID: 0}
+    itemValue: 1
+    itemType: 15
+    itemWeight: 0
+    maxStack: 1
+    indexItemInList: 999
+    rarity: 0
+    itemAttributes: []
+  - itemName: axe_gold
+    itemID: 18
+    itemDesc: 
+    itemIcon: {fileID: 21300000, guid: 7ac99810d6a81194993671a60c8345c7, type: 3}
+    itemModel: {fileID: 6809215933543775192, guid: af88270944a90f5489ca62ba4d5e9c32, type: 3}
+    blockModel: {fileID: 0}
+    itemValue: 1
+    itemType: 15
+    itemWeight: 0
+    maxStack: 1
+    indexItemInList: 999
+    rarity: 0
+    itemAttributes: []
+  - itemName: axe_diamond
+    itemID: 19
+    itemDesc: 
+    itemIcon: {fileID: 21300000, guid: 7c743d39bd9673144827027e133cc0ab, type: 3}
+    itemModel: {fileID: 6176945832750814737, guid: 5ac9eb671f964554b9c30523e4ce01d6, type: 3}
+    blockModel: {fileID: 0}
+    itemValue: 1
+    itemType: 15
+    itemWeight: 0
+    maxStack: 1
+    indexItemInList: 999
+    rarity: 0
+    itemAttributes: []
+  - itemName: shovel_wood
+    itemID: 20
+    itemDesc: 
+    itemIcon: {fileID: 21300000, guid: 48c0dda704e9efd4da9cdf47115a5876, type: 3}
+    itemModel: {fileID: 7484476814051507053, guid: 586c5fa1bf25fc74a9131eb63df435f1, type: 3}
+    blockModel: {fileID: 0}
+    itemValue: 1
+    itemType: 15
+    itemWeight: 0
+    maxStack: 1
+    indexItemInList: 999
+    rarity: 0
+    itemAttributes: []
+  - itemName: shovel_stone
+    itemID: 21
+    itemDesc: 
+    itemIcon: {fileID: 21300000, guid: daf7bdf579acf4e4ba7f5a277f4f8bd9, type: 3}
+    itemModel: {fileID: 2324438964434582471, guid: a9e4cf7ae08302344bd0d9679723bc0c, type: 3}
+    blockModel: {fileID: 0}
+    itemValue: 1
+    itemType: 15
+    itemWeight: 0
+    maxStack: 1
+    indexItemInList: 999
+    rarity: 0
+    itemAttributes: []
+  - itemName: shovel_iron
+    itemID: 22
+    itemDesc: 
+    itemIcon: {fileID: 21300000, guid: e8817879eb38dd1458f0297e3c4f388e, type: 3}
+    itemModel: {fileID: 7749009181637688142, guid: 730ce8c8ea1dbbf45bb1a894d633d0ed, type: 3}
+    blockModel: {fileID: 0}
+    itemValue: 1
+    itemType: 15
+    itemWeight: 0
+    maxStack: 1
+    indexItemInList: 999
+    rarity: 0
+    itemAttributes: []
+  - itemName: shovel_gold
+    itemID: 23
+    itemDesc: 
+    itemIcon: {fileID: 21300000, guid: f483c907b285a7c42adb200de35f4860, type: 3}
+    itemModel: {fileID: 4780540768915126211, guid: d0385f8606b83c94d8f603aee9b467d0, type: 3}
+    blockModel: {fileID: 0}
+    itemValue: 1
+    itemType: 15
+    itemWeight: 0
+    maxStack: 1
+    indexItemInList: 999
+    rarity: 0
+    itemAttributes: []
+  - itemName: shovel_diamond
+    itemID: 24
+    itemDesc: 
+    itemIcon: {fileID: 21300000, guid: 7c8edf3ff8ebbfc41995cc4df530804d, type: 3}
+    itemModel: {fileID: 8250641704696831879, guid: a8661e66441a7db41bbdd56f3db9a32b, type: 3}
+    blockModel: {fileID: 0}
+    itemValue: 1
+    itemType: 15
+    itemWeight: 0
+    maxStack: 1
+    indexItemInList: 999
+    rarity: 0
+    itemAttributes: []
+  - itemName: hoe_wood
+    itemID: 25
+    itemDesc: 
+    itemIcon: {fileID: 21300000, guid: 130392d9cf9a0f14bab0e7434f03a9b8, type: 3}
+    itemModel: {fileID: 6517353280133047829, guid: 3d4505fda1188f349adadafc48f03e76, type: 3}
+    blockModel: {fileID: 0}
+    itemValue: 1
+    itemType: 15
+    itemWeight: 0
+    maxStack: 1
+    indexItemInList: 999
+    rarity: 0
+    itemAttributes: []
+  - itemName: hoe_stone
+    itemID: 26
+    itemDesc: 
+    itemIcon: {fileID: 21300000, guid: 0a4de7a212bc919409e39261446cf1c4, type: 3}
+    itemModel: {fileID: 605516414570323884, guid: f4b2044b035caab408d923242bd80e3d, type: 3}
+    blockModel: {fileID: 0}
+    itemValue: 1
+    itemType: 15
+    itemWeight: 0
+    maxStack: 1
+    indexItemInList: 999
+    rarity: 0
+    itemAttributes: []
+  - itemName: hoe_iron
+    itemID: 27
+    itemDesc: 
+    itemIcon: {fileID: 21300000, guid: 1f55a6eb570f2a942904d39c1bb547b7, type: 3}
+    itemModel: {fileID: 8317027542946433238, guid: 803682ae930c6964095f7963efbd3152, type: 3}
+    blockModel: {fileID: 0}
+    itemValue: 1
+    itemType: 15
+    itemWeight: 0
+    maxStack: 1
+    indexItemInList: 999
+    rarity: 0
+    itemAttributes: []
+  - itemName: hoe_gold
+    itemID: 28
+    itemDesc: 
+    itemIcon: {fileID: 21300000, guid: bfc7ae0d909afbb49b53ba4331cddafb, type: 3}
+    itemModel: {fileID: 3309824188090699956, guid: c1e8dba0ba25f144ca82eacc3e153d45, type: 3}
+    blockModel: {fileID: 0}
+    itemValue: 1
+    itemType: 15
+    itemWeight: 0
+    maxStack: 1
+    indexItemInList: 999
+    rarity: 0
+    itemAttributes: []
+  - itemName: hoe_diamond
+    itemID: 29
+    itemDesc: 
+    itemIcon: {fileID: 21300000, guid: 0f20933d62ae8984e89f7fcda24e693a, type: 3}
+    itemModel: {fileID: 8718085074178806135, guid: 7fa2420aa242f79488124321e89964aa, type: 3}
+    blockModel: {fileID: 0}
+    itemValue: 1
+    itemType: 15
+    itemWeight: 0
+    maxStack: 1
+    indexItemInList: 999
+    rarity: 0
+    itemAttributes: []
+  - itemName: sword_wood
+    itemID: 30
+    itemDesc: 
+    itemIcon: {fileID: 21300000, guid: 06dbefa0dc1ce4c46af573f819a332c0, type: 3}
+    itemModel: {fileID: 4971271525724608315, guid: 0fed6995547cac84f9970a4013a6f1b7, type: 3}
+    blockModel: {fileID: 0}
+    itemValue: 1
+    itemType: 15
+    itemWeight: 0
+    maxStack: 1
+    indexItemInList: 999
+    rarity: 0
+    itemAttributes: []
+  - itemName: sword_stone
+    itemID: 31
+    itemDesc: 
+    itemIcon: {fileID: 21300000, guid: cb8b0343ad7f4c242ac66c5571a3d607, type: 3}
+    itemModel: {fileID: 3542264817688587567, guid: de4b05d5451d0dc4bb9f47cba47c4f3e, type: 3}
+    blockModel: {fileID: 0}
+    itemValue: 1
+    itemType: 15
+    itemWeight: 0
+    maxStack: 1
+    indexItemInList: 999
+    rarity: 0
+    itemAttributes: []
+  - itemName: sword_iron
+    itemID: 32
+    itemDesc: 
+    itemIcon: {fileID: 21300000, guid: 754ec96121662dc48a05edfddf9e2caa, type: 3}
+    itemModel: {fileID: 3833867790444210502, guid: db823a35ed1668d4bab3fee95263bec9, type: 3}
+    blockModel: {fileID: 0}
+    itemValue: 1
+    itemType: 15
+    itemWeight: 0
+    maxStack: 1
+    indexItemInList: 999
+    rarity: 0
+    itemAttributes: []
+  - itemName: sword_gold
+    itemID: 33
+    itemDesc: 
+    itemIcon: {fileID: 21300000, guid: dcacc694a37dc1748b2031f55e807524, type: 3}
+    itemModel: {fileID: 3697850302782667718, guid: 861acb1ba072449469c9193c20ad4d1f, type: 3}
+    blockModel: {fileID: 0}
+    itemValue: 1
+    itemType: 15
+    itemWeight: 0
+    maxStack: 1
+    indexItemInList: 999
+    rarity: 0
+    itemAttributes: []
+  - itemName: sword_diamond
+    itemID: 34
+    itemDesc: 
+    itemIcon: {fileID: 21300000, guid: e15bebc76a511f545a5c0ad1e509f8e5, type: 3}
+    itemModel: {fileID: 4933010012635541745, guid: a6ec298c675a9bc4aabcfe43f3f905ac, type: 3}
+    blockModel: {fileID: 0}
+    itemValue: 1
+    itemType: 0
+    itemWeight: 0
+    maxStack: 1
+    indexItemInList: 999
+    rarity: 0
+    itemAttributes: []

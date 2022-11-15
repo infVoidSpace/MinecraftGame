@@ -1,0 +1,175 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9c81ebb5a9a472b4f9be77b8725b246a, type: 3}
+  m_Name: BlueprintDatabase
+  m_EditorClassIdentifier: 
+  blueprints:
+  - ingredients: 08000000
+    amount: 02000000
+    finalItem:
+      itemName: stick
+      itemID: 9
+      itemDesc: 
+      itemIcon: {fileID: 21300000, guid: 9b6ec7a2922d9274787efeee46b59a93, type: 3}
+      itemModel: {fileID: 2585642027309916247, guid: 608ec4f5230c430488d47fa9377f70f4, type: 3}
+      blockModel: {fileID: 0}
+      itemValue: 4
+      itemType: 11
+      itemWeight: 0
+      maxStack: 64
+      indexItemInList: 999
+      rarity: 0
+      itemAttributes: []
+    amountOfFinalItem: 4
+    timeToCraft: 0
+  - ingredients: 0800000009000000
+    amount: 0300000002000000
+    finalItem:
+      itemName: pickaxe_wood
+      itemID: 10
+      itemDesc: 
+      itemIcon: {fileID: 21300000, guid: 2e95bcc724f5ac343b166b4cab8f7f63, type: 3}
+      itemModel: {fileID: 5676434394379209709, guid: 947cfc73092450441b652fc5197c415b, type: 3}
+      blockModel: {fileID: 0}
+      itemValue: 1
+      itemType: 15
+      itemWeight: 0
+      maxStack: 1
+      indexItemInList: 999
+      rarity: 0
+      itemAttributes: []
+    amountOfFinalItem: 1
+    timeToCraft: 0
+  - ingredients: 0800000009000000
+    amount: 030000000200000000000000
+    finalItem:
+      itemName: axe_wood
+      itemID: 15
+      itemDesc: 
+      itemIcon: {fileID: 21300000, guid: c42e040aa94577b4baec00b17bce66b8, type: 3}
+      itemModel: {fileID: 2782608353049320158, guid: 538f0443a5fff724d8c2a60290f3458d, type: 3}
+      blockModel: {fileID: 0}
+      itemValue: 1
+      itemType: 15
+      itemWeight: 0
+      maxStack: 1
+      indexItemInList: 999
+      rarity: 0
+      itemAttributes: []
+    amountOfFinalItem: 1
+    timeToCraft: 0
+  - ingredients: 0800000009000000
+    amount: 0100000002000000
+    finalItem:
+      itemName: shovel_wood
+      itemID: 20
+      itemDesc: 
+      itemIcon: {fileID: 21300000, guid: 48c0dda704e9efd4da9cdf47115a5876, type: 3}
+      itemModel: {fileID: 7484476814051507053, guid: 586c5fa1bf25fc74a9131eb63df435f1, type: 3}
+      blockModel: {fileID: 0}
+      itemValue: 1
+      itemType: 15
+      itemWeight: 0
+      maxStack: 1
+      indexItemInList: 999
+      rarity: 0
+      itemAttributes: []
+    amountOfFinalItem: 1
+    timeToCraft: 0
+  - ingredients: 0800000009000000
+    amount: 0200000002000000
+    finalItem:
+      itemName: hoe_wood
+      itemID: 25
+      itemDesc: 
+      itemIcon: {fileID: 21300000, guid: 130392d9cf9a0f14bab0e7434f03a9b8, type: 3}
+      itemModel: {fileID: 6517353280133047829, guid: 3d4505fda1188f349adadafc48f03e76, type: 3}
+      blockModel: {fileID: 0}
+      itemValue: 1
+      itemType: 15
+      itemWeight: 0
+      maxStack: 1
+      indexItemInList: 999
+      rarity: 0
+      itemAttributes: []
+    amountOfFinalItem: 1
+    timeToCraft: 0
+  - ingredients: 0800000009000000
+    amount: 0200000001000000
+    finalItem:
+      itemName: sword_wood
+      itemID: 30
+      itemDesc: 
+      itemIcon: {fileID: 21300000, guid: 06dbefa0dc1ce4c46af573f819a332c0, type: 3}
+      itemModel: {fileID: 4971271525724608315, guid: 0fed6995547cac84f9970a4013a6f1b7, type: 3}
+      blockModel: {fileID: 0}
+      itemValue: 1
+      itemType: 15
+      itemWeight: 0
+      maxStack: 1
+      indexItemInList: 999
+      rarity: 0
+      itemAttributes: []
+    amountOfFinalItem: 1
+    timeToCraft: 0
+  - ingredients: 06000000
+    amount: 01000000
+    finalItem:
+      itemName: oakPlanks_item
+      itemID: 8
+      itemDesc: 
+      itemIcon: {fileID: 21300000, guid: 7381f88565ec02145aa9fcc0c4566314, type: 3}
+      itemModel: {fileID: 3526377570359598595, guid: 699f6ccfb93d1544ba9d9c886fced3dd, type: 3}
+      blockModel: {fileID: 2449625398286032588, guid: 0ccb8bb342d29cc41ab79fc39f391153, type: 3}
+      itemValue: 4
+      itemType: 14
+      itemWeight: 0
+      maxStack: 64
+      indexItemInList: 999
+      rarity: 0
+      itemAttributes:
+      - attributeName: orientable
+        attributeValue: 0
+      - attributeName: handMiningLevel
+        attributeValue: 30
+      - attributeName: pickaxeMiningLevel
+        attributeValue: 30
+      - attributeName: axeMiningLevel
+        attributeValue: 70
+      - attributeName: shovelMiningLevel
+        attributeValue: 30
+      - attributeName: hoeMiningLevel
+        attributeValue: 30
+      - attributeName: swordMiningLevel
+        attributeValue: 30
+      - attributeName: toolTypeRequired
+        attributeValue: 1
+    amountOfFinalItem: 4
+    timeToCraft: 0
+  - ingredients: 0900000004000000
+    amount: 0200000003000000
+    finalItem:
+      itemName: pickaxe_stone
+      itemID: 11
+      itemDesc: 
+      itemIcon: {fileID: 21300000, guid: 15d881277a591f142a11f7834c99193b, type: 3}
+      itemModel: {fileID: 2683582693328149123, guid: 1c5a9d79605209e40a5ba935ddd1e935, type: 3}
+      blockModel: {fileID: 0}
+      itemValue: 1
+      itemType: 15
+      itemWeight: 0
+      maxStack: 1
+      indexItemInList: 999
+      rarity: 0
+      itemAttributes: []
+    amountOfFinalItem: 1
+    timeToCraft: 0
